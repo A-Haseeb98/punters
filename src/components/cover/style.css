@@ -1,0 +1,26 @@
+.cover_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cover_container img{
+    width: 100%;
+}
+
+.etherium_heading{
+    background-color: #627EEA;
+    height: 106px;
+    width: 100%;
+}
+.etherium_heading h1{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 106px;  
+    max-width: 1440px;
+    letter-spacing: 1px;
+    margin: 0% auto;
+    color: white;
+}

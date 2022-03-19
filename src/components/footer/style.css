@@ -1,0 +1,60 @@
+.footer_container{
+    background-color: #212529;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.sub_footer{
+    text-align: center;
+
+}
+.footer_container > div > h2 {
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.footer_container .join_p {
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    
+    /* identical to box height, or 145% */
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+.icons_container {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.footer_container .credit_p {
+    color: rgba(255, 255, 255);
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 37px;
+    letter-spacing: 1px;
+}
+.icons_container span{
+    color: #fff;
+    font-size: 25px;
+}
+.horse_container{
+    position: absolute;
+    bottom: 0;
+    left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

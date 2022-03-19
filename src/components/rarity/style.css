@@ -1,0 +1,67 @@
+.rarity_container{
+    background-color: #282828;
+    width: 100%;
+}
+.rarity_wrapper{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rarity_design{
+    width: 100%;
+    transform: translateY(-05px );
+    position: relative;
+}
+.rarity_design img{
+    width: 100%;
+}
+.head_div{
+    transform: translateY(-180px);
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    color: #282828;
+
+}
+.r_main_heading{
+    font-family: 'TT Norms Pro';
+    font-style: italic;
+    font-weight: 900;
+    margin: auto;
+    font-size: 70px;
+    line-height: 84px;
+    transform: matrix(1, -0.04, 0.04, 1, 0, 0);
+}
+.rarity_ima_wrapper{
+    width: 50%;
+}
+.rarity_ima_wrapper img.second{
+   margin-left: 20px;
+}
+.second_img_cont{
+    margin-top: 20px;
+}
+.rarity_content{
+    width: 50%;
+}
+.rarity_content h1{
+    font-family: 'TT Norms Pro';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+.why_text{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,108 @@
+.welcome_main_container{
+    width: 100%;
+    background: url('../../assets/images/welcome_black_bg.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+.welcome_sub_container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left_cont{
+    background-color: #CE8D4D;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right_cont{
+    width: 50%;
+
+}
+.welcome_content_container{
+    width: 100%;
+    max-width: 720px;
+    margin-left: auto;
+}
+
+
+.center_design{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #282828;
+}
+.center_design img{
+    height: 100%;
+}
+
+.img_welcome_container{
+    width: 50%;
+    margin-top: -250px;
+    max-width: 720px;
+    margin-right: auto;
+}
+.img_welcome_container img{
+    /* width: 100%; */
+}
+
+
+
+.welcome_content_container h1{
+
+    font-family: 'TT Norms Pro';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+}
+
+.welcome_content_container h2{
+    font-family: 'TT Norms Pro';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    padding: 5px;
+    width: 430px;   
+    background: url('../../assets/images/heading_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.welcome_content_container p{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+.welcome_content_container button{
+    color: white;
+    width: 195px;
+    height: 58px;
+    line-height: 21.09px;
+    font-size: 18px;
+    font-weight: 900;
+    border: none;
+    background: url('../../assets/images/btn_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+

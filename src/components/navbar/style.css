@@ -1,0 +1,59 @@
+.main_container{
+    background-color: black;
+}
+.sub_main_container_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.logo_container{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_container p{
+    margin-left: 10px;
+    color: #FF9900;
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 20px;
+}
+.logo_container p span{
+    color: rgba(255, 255, 255, 0.8);
+        font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+
+}
+.text_container{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-left: auto;
+}
+.text_container span {
+    margin-right: 30px;
+}
+.btn_container button{
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    width: 195px;
+    height: 58px;
+    border: none;
+}
