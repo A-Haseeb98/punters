@@ -1,14 +1,19 @@
 .footer_container{
     background-color: #212529;
+
+}
+.footer_wrap{
+    max-width: 1440px;
+    position: relative;
+    margin: auto;
     padding-top: 70px;
     padding-bottom: 70px;
-    position: relative;
 }
 .sub_footer{
     text-align: center;
 
 }
-.footer_container > div > h2 {
+.footer_container  div  h2 {
     font-family: 'TT Norms Pro';
     font-style: normal;
     font-weight: 900;
@@ -30,7 +35,7 @@
     color: rgba(255, 255, 255, 0.8);
 }
 .icons_container {
-    width: 80px;
+    width: 70px;
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
@@ -50,6 +55,12 @@
     color: #fff;
     font-size: 25px;
 }
+.icons_container span:hover{
+    color:#FF9900; 
+    cursor:pointer;  
+    transition: all .2s ease-in-out; 
+    transform: scale(1.2);
+}
 .horse_container{
     position: absolute;
     bottom: 0;
@@ -57,4 +68,35 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    width: 25%;
+    max-width: 364px;
+}
+.horse_container img{
+    width: 100%;    
+}
+@media screen and (max-width: 768px){
+
+    .footer_wrap{
+  
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer_container > div > h2 {
+        font-size: 30px;
+    }
+    .footer_container .join_p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .icons_container {
+        width: 70px;
+    }
+    .footer_container .credit_p {
+        font-size: 14px;
+    }
+    .horse_container{
+        display: none;
+    }
 }

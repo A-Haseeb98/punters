@@ -1,3 +1,4 @@
+
 .rarity_container{
     background-color: #282828;
     width: 100%;
@@ -9,11 +10,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .rarity_design{
     width: 100%;
-    transform: translateY(-05px );
     position: relative;
 }
 .rarity_design img{
@@ -34,19 +33,38 @@
     margin: auto;
     font-size: 70px;
     line-height: 84px;
+    max-width: 1440px;
+    width: 95%;
     transform: matrix(1, -0.04, 0.04, 1, 0, 0);
 }
 .rarity_ima_wrapper{
-    width: 50%;
+    width: 45%;
 }
-.rarity_ima_wrapper img.second{
-   margin-left: 20px;
+
+.first_img_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first_img_cont img{
+    width: calc(50% - 15px);
+    vertical-align: bottom;
 }
 .second_img_cont{
-    margin-top: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.second_img_cont img{
+    width: calc(50% - 15px);
+    margin-top: 0px;
+    vertical-align: bottom;
+}
+
 .rarity_content{
-    width: 50%;
+    width: 55%;
+    padding-left: 10%;
 }
 .rarity_content h1{
     font-family: 'TT Norms Pro';
@@ -64,4 +82,127 @@
     font-size: 22px;
     line-height: 34px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px){
+
+    .head_div{
+        transform: translateY(-150px);
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        color: #282828;
+    
+    }
+    .r_main_heading{
+        font-family: 'TT Norms Pro';
+        font-style: italic;
+        font-weight: 900;
+        margin: auto;
+        font-size: 70px;
+        line-height: 84px;
+        max-width: 1440px;
+        width: 95%;
+        transform: matrix(1, -0.04, 0.04, 1, 0, 0);
+    }
+}
+
+@media screen and (max-width: 980px){
+
+    .head_div{
+        transform: translateY(-120px);
+    
+    }
+    .r_main_heading{
+        font-family: 'TT Norms Pro';
+        font-style: italic;
+        font-weight: 900;
+        margin: auto;
+        font-size: 60px;
+        line-height: 84px;
+        max-width: 1440px;
+        width: 95%;
+        transform: matrix(1, -0.04, 0.04, 1, 0, 0);
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .rarity_container{
+        background-color: #282828;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .rarity_wrapper{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rarity_design{
+        width: 100%;
+        transform: translateY(0px );
+        position: relative;
+    }
+    .head_div{
+        transform: translateY(0px);
+        width: 100%;
+        margin: 0 auto;
+        color: #FFFFFF;
+    }
+    .r_main_heading{
+        font-size: 50px;
+        text-align: center;
+        transform: none;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .rarity_ima_wrapper{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .rarity_ima_wrapper img.second{
+       margin-left: 00px;
+    }
+    .first_img_cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first_img_cont img{
+        width: calc(50% - 5px);
+        vertical-align: bottom;
+    }
+    .second_img_cont{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .second_img_cont img{
+        width: calc(50% - 5px);
+        margin-top: 0px;
+        vertical-align: bottom;
+    }
+    .rarity_content{
+        width: 100%;
+        padding: 0;
+    }
+    .rarity_content h1{
+        font-size: 40px;
+        line-height: 50px;
+        
+    }
+    .why_text{
+        font-family: 'TT Norms Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
 }

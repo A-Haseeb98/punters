@@ -5,17 +5,22 @@ import Navbar from './components/navbar';
 import Rarity from './components/rarity';
 import Roadmap from './components/roadmap';
 import Welcome from './components/welcome_section';
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-    <Navbar/>
-    <Cover/>
-    <Welcome/>
-    <Rarity/>
-    <Roadmap/>
-    <Footer/>
-    </div>
+    <Router>
+      <Switch>
+        <div>
+          <Navbar />
+          <Cover />
+          <Welcome />
+          <Rarity />
+          <Roadmap />
+          <Footer />
+        </div>
+      </Switch>
+    </Router>
   );
 }
 

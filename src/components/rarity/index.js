@@ -7,7 +7,7 @@ import layer from "../../assets/images/rarity_layer.png"
 
 function Rarity() {
     return (
-        <div className='rarity_container'>
+        <div className='rarity_container' id='rarity'>
             <div className='rarity_design'>
                 <img src={layer} alt="" />
                 <div className='head_div'>
@@ -19,7 +19,7 @@ function Rarity() {
             </div>
             <div className='rarity_wrapper'>
                 <div className='rarity_ima_wrapper'>
-                    <div>
+                    <div className='first_img_cont'>
                         <img src={h1} alt="" />
                         <img className='second' src={h2} alt="" />
                     </div>

@@ -20,6 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 333;
 
 }
 
@@ -28,9 +29,10 @@
 
 }
 .welcome_content_container{
-    width: 100%;
+    width: 95%;
     max-width: 720px;
     margin-left: auto;
+    z-index: 333;
 }
 
 
@@ -46,16 +48,16 @@
 }
 
 .img_welcome_container{
-    width: 50%;
+    width: 95%;
     margin-top: -250px;
     max-width: 720px;
     margin-right: auto;
 }
 .img_welcome_container img{
-    /* width: 100%; */
+    width: 100%;
+    max-width: 615px;
+    vertical-align: bottom;
 }
-
-
 
 .welcome_content_container h1{
 
@@ -105,4 +107,167 @@
     background-position: center;
     margin-top: 30px;
 }
+.welcome_content_container button:hover{
+    opacity: 0.9;
+    cursor:pointer;  
+    transition: all .2s ease-in-out; 
+}
 
+@media screen and (max-width: 1160px){
+    .img_welcome_container{
+        width: 95%;
+        margin-top: -150px;
+        max-width: 720px;
+        margin-right: auto;
+    }
+   
+}
+
+@media screen and (max-width: 1000px){
+    .img_welcome_container{
+        width: 95%;
+        margin-top: 0px;
+        max-width: 720px;
+        margin-right: auto;
+    }
+
+    .welcome_content_container h1{
+
+        font-size: 40px;
+        line-height: 55px;
+    }
+    
+    .welcome_content_container h2{
+
+        font-size: 40px;
+        line-height: 55px;
+     
+        max-width: fit-content;
+ 
+    }
+    .welcome_content_container h2 span{
+        visibility: hidden;
+    }
+    .welcome_content_container p{
+        font-family: 'TT Norms Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 34px;
+        color: #FFFFFF;
+    
+    }
+   
+}
+
+@media screen and (max-width: 768px){
+    .welcome_main_container{
+        width: 100%;
+        background: url('../../assets/images/welcome_black_bg.png');
+        display: block;
+    }
+
+    .left_cont{
+        background-color: #CE8D4D;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right_cont{
+        width: 100%;
+    }
+    .center_design{
+        display: none;
+    }
+    
+    .img_welcome_container{
+        width: 100%;
+        margin-top: 0px;
+        max-width: none;
+        margin-right: auto;
+        text-align: center;
+        vertical-align: top;
+        
+    }
+    .img_welcome_container img{
+        width: 90%;
+        vertical-align: bottom;
+        transform: translateY(-40px);
+        margin-bottom: -40px;
+    }
+    
+    .welcome_content_container{
+        padding: 50px 20px;
+        width: 100%;
+
+    }
+    .welcome_content_container h1{
+    
+        font-family: 'TT Norms Pro';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 50px;
+        color: white;
+    }
+    
+    .welcome_content_container h2{
+        font-size: 35px;
+        line-height: 40px;
+        padding: 5px;
+        width: 100%;   
+        max-width: 305px;
+        margin-bottom: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .welcome_content_container h2 span{ 
+        visibility: hidden;
+    }
+    .welcome_content_container p{
+        font-family: 'TT Norms Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 30px;
+        color: #FFFFFF;
+    
+    }
+    .welcome_content_container button{
+        color: white;
+        width: 165px;
+        height: 50px;
+        line-height: 21.09px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 378px){
+    .welcome_content_container h1{
+    
+        font-family: 'TT Norms Pro';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 40px;
+        color: white;
+    }
+    
+    .welcome_content_container h2{
+
+        font-size: 30px;
+        line-height: 40px;
+        padding: 5px;
+        max-width: fit-content;
+        margin-bottom: 10px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

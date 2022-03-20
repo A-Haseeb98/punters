@@ -13,6 +13,7 @@
     
 }
 .rm_heading_cont h1{
+    font-family: 'TT Norms Pro';
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 50px;
@@ -20,9 +21,7 @@
     font-style: italic;
     font-weight: 900;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 .roadmap_content{
 
@@ -59,5 +58,30 @@
     text-align: right;
     margin-bottom: 25px;
     width: 70%;
+}
 
+@media screen and (max-width: 768px){
+    .first_main{
+        padding-bottom: 50px;
+    }
+    .rm_heading_cont h1{
+        margin-bottom: 40px;
+        font-size: 45px;
+    }
+    .sub_cont{
+        padding: 0 20px;
+    }
+    .num_container{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 22px;
+        width: 20%;
+    }
+    .rm_text_cont{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 22px;
+        width: 80%;
+        text-align: left;
+    }    
 }

@@ -7,7 +7,7 @@ function Cover(){
             <div className='cover_container'>
                 <img src={cover} alt="cover" />
             </div>
-            <div className='etherium_heading'>
+            <div className='etherium_heading'id='about'>
                 <h1>
                 MINTING ON ETHEREUM 
                 </h1>

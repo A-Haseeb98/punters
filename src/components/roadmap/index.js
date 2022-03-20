@@ -4,7 +4,7 @@ import layer from "../../assets/images/Layer.png"
 
 function Roadmap() {
     return (
-        <div className='first_main'>
+        <div className='first_main' id='roadmap'>
             <div className='design_layer'>
                 <img src={layer} alt="" />
             </div>

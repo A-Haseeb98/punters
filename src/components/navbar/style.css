@@ -1,3 +1,6 @@
+.navbar_container_mobile{
+    display: none;
+}
 .main_container{
     background-color: black;
 }
@@ -27,12 +30,11 @@
 }
 .logo_container p span{
     color: rgba(255, 255, 255, 0.8);
-        font-family: 'Changa One';
+    font-family: 'Changa One';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 15px;
-
 }
 .text_container{
     font-family: 'TT Norms Pro';
@@ -45,6 +47,7 @@
 }
 .text_container span {
     margin-right: 30px;
+
 }
 .btn_container button{
     background-color: #FFFFFF;
@@ -56,4 +59,120 @@
     width: 195px;
     height: 58px;
     border: none;
+}
+.btn_container button:hover{
+    opacity: 0.9;
+    cursor:pointer;  
+    transition: all .2s ease-in-out; 
+}
+
+a { color: inherit; 
+text-decoration: none;
+cursor:pointer;  
+
+} 
+a:hover {
+    color:#FF9900; 
+    text-decoration:none; 
+    cursor:pointer;  
+    transition: all .2s ease-in-out; 
+}
+
+@media screen and (max-width: 768px){
+    .main_container{
+        display: none;
+    }
+    .navbar_container_mobile{
+        display: block;
+        background-color: black;
+    }
+
+    .navbar_container_mobile{
+        padding: 5px 15px;
+        display: block;
+        position: relative;
+    }
+    
+    .header_wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center ;
+        height: 60px;
+        flex: 1;
+    }
+    .logo_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo_container img{
+        width: 37px;
+    }
+
+    .logo_container p{
+        margin-left: 5px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .logo_container p span{
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Changa One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 8px;
+    }
+    
+    .icons_container_mobile{
+        line-height: 20px;
+        color: #fff;
+    }
+    
+    .icons_container_mobile span{
+        line-height: 25px;
+        font-size: 25px;
+        padding: 5px 5px;
+    }
+    .navbar_btn_mobile{
+        color: white;
+        background-color: transparent;
+        border: none;
+        line-height: 25px;
+        font-size: 25px;
+    }
+    
+    .menu_section_mobile{
+        color: rgba(255, 255, 255, 0.8);
+
+        font-weight: 400;
+        list-style-type: none;
+        padding-left: 0px;
+        position: absolute;
+        z-index: 2;
+        background-color: black;
+        width: 100%;
+        margin-left: -15px;
+    }
+    .menu_section_mobile li{
+        margin: 0;
+        padding: 0;
+        line-height: 15px;
+        font-size: 15px;
+        padding: 20px 15px;
+        border-bottom: 1px solid white;
+    }
+    .menu_section_mobile li a{
+        font-family: 'Changa One';
+        font-style: normal;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+    }
+    
+    .menu_section_mobile li:last-child{
+        border-bottom: none;
+    }
+
+
 }
