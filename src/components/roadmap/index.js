@@ -1,5 +1,6 @@
 import './style.css'
 import layer from "../../assets/images/Layer.png"
+import bottom_design from "../../assets/images/box.png"
 
 
 function Roadmap() {
@@ -7,6 +8,9 @@ function Roadmap() {
         <div className='first_main' id='roadmap'>
             <div className='design_layer'>
                 <img src={layer} alt="" />
+                {/* <div className='bottom_design2'>
+                    <img src={bottom_design} alt='' />
+                </div> */}
             </div>
             <div className='rm_heading_cont'>
                 <h1>
@@ -14,6 +18,7 @@ function Roadmap() {
                 </h1>
             </div>
             <div className='roadmap_content'>
+
                 <div className='sub_cont'>
                     <p className='num_container'>10%</p>
                     <p className='rm_text_cont'>Give away NFT </p>

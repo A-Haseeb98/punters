@@ -7,10 +7,11 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    /* position: relative; */
+
 }
 .design_layer img{
-    width: 100%;
-    
+    width: 100%;  
 }
 .rm_heading_cont h1{
     font-family: 'TT Norms Pro';
@@ -24,7 +25,6 @@
     text-align: center;
 }
 .roadmap_content{
-
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
@@ -59,6 +59,11 @@
     margin-bottom: 25px;
     width: 70%;
 }
+/* .bottom_design2{
+    position: absolute;
+    right: 150px;
+    top: 160px;
+} */
 
 @media screen and (max-width: 768px){
     .first_main{

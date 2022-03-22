@@ -1,6 +1,7 @@
 import './style.css'
 import horse from "../../assets/images/horse.png"
-import welcome_design from "../../assets/images/image1.png"
+import welcome_design from "../../assets/images/111.png"
+import bottom_design from "../../assets/images/box.png"
 
 function Welcome() {
     return (
@@ -16,15 +17,19 @@ function Welcome() {
                     <p>Cyouts To Users Without The Need To</p>
                     <p>To Sustain Trading Volume.</p>
                     <button>JOIN DISCORD</button>
-                   
+
                 </div>
                 <div className='center_design'>
-                        <img src={welcome_design} alt='welcome_design' />
-                    </div>
+                    <img src={welcome_design} alt='' />
+                </div>
+              
             </div>
             <div className='right_cont'>
                 <div className="img_welcome_container">
                     <img src={horse} alt='Horse' />
+                </div>
+                <div className='bottom_design'>
+                    <img src={bottom_design} alt='' />
                 </div>
             </div>
         </div>
