@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-
 }
 .welcome_sub_container{
     width: 100%;
@@ -12,10 +11,9 @@
     margin: 0 auto;
     position: relative;
 }
-
 .left_cont{
     background-color: #CE8D4D;
-    width: 50%;
+    width: 60%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -26,22 +24,28 @@
 }
 
 .right_cont{
-    width: 50%;
+    width: 40%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .welcome_content_container{
     width: 95%;
-    max-width: 720px;
+    max-width: 864px;
     margin-left: auto;
     z-index: 333;
 }
-
+.welcome_content_container p{
+    padding-right: 120px;
+    width: 100%;
+}
 
 .center_design{
     position: absolute;
     top: 0;
-    right: 0;
+    right: -00px;
     height: 100%;
     background-color: #282828;
 }
@@ -51,7 +55,7 @@
 .bottom_design{
     position: absolute;
     bottom: -30px;
-    left: -160px;
+    left: -100px;
     z-index: 33333;
     max-width: 166px;
 }
@@ -60,15 +64,17 @@
 }
 
 .img_welcome_container{
-    width: 95%;
-    margin-top: -250px;
-    max-width: 720px;
+    width: 100%;
+    margin-top: 0px;
+    max-width: 576px;
     margin-right: auto;
 }
 .img_welcome_container img{
-    width: 100%;
+    width: calc(100% + 20px);
+    transform: translateX(-20px);
     max-width: 615px;
     vertical-align: bottom;
+
 }
 
 .welcome_content_container h1{

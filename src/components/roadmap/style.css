@@ -1,6 +1,6 @@
 .first_main{
     background-color: #089273;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 .design_layer{
     width: 100%;
@@ -21,13 +21,28 @@
     line-height: 59.9px;
     font-style: italic;
     font-weight: 900;
+    color: #FEC700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.road_text{
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.8px;
     color: white;
     text-align: center;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 0 15%;
+    margin-bottom: 80px;
 }
 .roadmap_content{
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .sub_cont{

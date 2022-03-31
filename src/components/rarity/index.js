@@ -30,9 +30,11 @@ function Rarity() {
                 </div>
                 <div className='rarity_content'>
                     <h1>
-                        10,000 RACE <br /> HORSES
+                        8’888 Hand Crafted <br /> HORSES
                     </h1>
-                    <p className='why_text'>Why we are bullish on BSCWIN <br /> cyouts to users without the need to sustain<br /> trading volume.Why we are bullish on BSCWIN<br />cyouts to users without the need to sustain<br /> trading volume.<br /></p>
+                    <p className='why_text'>Each horse has a unique set of traits to make its look 100% unique compared to others.
+                        On top of that, each horse also carries unique racing properties that can evolve with time to make your racing horse even more competitive.
+                    </p>
                 </div>
             </div>
         </div>

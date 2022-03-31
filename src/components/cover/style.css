@@ -3,7 +3,50 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
+.headline_container{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-400px);
+    width: 800px;
+    color:#fff;
+    text-align: center;
+}
+.headline_container h1 {
+    font-family: 'TT Norms Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+}
+
+.headline_container button{
+    color: white;
+    width: 195px;
+    height: 58px;
+    line-height: 21.09px;
+    font-size: 18px;
+    font-weight: 900;
+    border: none;
+    background: url('../../assets/images/btn_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+.headline_container button:hover{
+    opacity: 0.9;
+    cursor:pointer;  
+    transition: all .2s ease-in-out; 
+}
+
+
+
 .cover_container img{
     width: 100%;
 }
