@@ -15,16 +15,19 @@
 
 }
 
-.rent_section_image{
+.rent_section_image {
     width: 50%;
 }
-.rent_section_image img{
+
+.rent_section_image img {
     width: calc(100% - 20%);
 }
-.rent_section_text{
+
+.rent_section_text {
     width: 50%;
 
 }
+
 .rent_section_text h1 {
     font-family: 'TT Norms Pro';
     font-style: italic;
@@ -43,13 +46,26 @@
     line-height: 34px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 1150px) {
+    .rent_section_text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .rent_section_text p {
+
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .main_pink_container {
         background-color: #b5004c;
     }
-    
+
     .rent_section_main {
-        display: flex;
         flex-direction: column-reverse;
         margin: 0 auto;
         padding-top: 30px;
@@ -58,32 +74,31 @@
         padding-right: 20px;
         width: 100%;
     }
-    
-    .rent_section_image{
+
+    .rent_section_image {
         width: 100%;
         padding-top: 35px;
     }
-    .rent_section_image img{
+
+    .rent_section_image img {
         width: 100%;
     }
-    .rent_section_text{
+
+    .rent_section_text {
         width: 100%;
-    
+
     }
+
     .rent_section_text h1 {
         font-weight: bold;
         font-size: 35px;
         line-height: 40px;
-        color: white;
         margin-bottom: 20px;
     }
-    
+
     .rent_section_text p {
-        font-family: 'TT Norms Pro';
-        font-style: normal;
-        font-weight: 700;
+
         font-size: 19px;
         line-height: 30px;
-        color: #FFFFFF;
     }
 }

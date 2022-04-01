@@ -15,7 +15,6 @@ function Opportunities() {
                 <p>Join the Punters in the Web3.0 era, and starting betting on your future now!
                 </p>
             </div>
-
         </div>
     )
 }

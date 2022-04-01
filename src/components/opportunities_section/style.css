@@ -28,6 +28,8 @@
     font-style: italic;
     font-weight: 900;
     color: #FEC700;
+    text-transform: uppercase;
+
 }
 .oppor_text p{
     font-family: 'TT Norms Pro';
@@ -37,13 +39,25 @@
     line-height: 34px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1150px){
+    .oppor_text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .oppor_text p{
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+
 @media screen and (max-width: 768px){
     .oppor_main{
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-start;
         align-items: center;
-        text-align: left;
         width: 100%;
         padding-top: 10px;
         padding-bottom: 0px;
@@ -61,23 +75,15 @@
         width: 100%;
     }
     .oppor_text h1{
-        font-family: 'TT Norms Pro';
         width: 100%;
         margin-top: 0px;
         margin-bottom: 20px;
         font-size: 33px;
         line-height: 50px;
-        font-style: italic;
-        font-weight: 900;
-        color: #FEC700;
         text-transform: uppercase;
     }
     .oppor_text p{
-        font-family: 'TT Norms Pro';
-        font-style: normal;
-        font-weight: 700;
         font-size: 19px;
         line-height: 30px;
-        color: #FFFFFF;
     }
 }

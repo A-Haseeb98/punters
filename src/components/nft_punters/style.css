@@ -1,26 +1,32 @@
-.back_wrapper{
+.back_wrapper {
     background-color: #282828;
-    padding:  0;
+    padding: 0;
 }
-.nft_punters_main{
+
+.nft_punters_main {
     display: flex;
     max-width: 1440px;
     margin: auto;
     width: 95%;
-
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
 }
-.nft_punters_image{
+
+.nft_punters_image {
     width: 50%;
     text-align: right;
 }
-.nft_punters_image img{
+
+.nft_punters_image img {
     width: calc(100% - 20%);
 }
-.nft_punters_text{
+
+.nft_punters_text {
     width: 50%;
 }
-.nft_punters_text h1{
+
+.nft_punters_text h1 {
     font-family: 'TT Norms Pro';
     font-style: italic;
     font-weight: 900;
@@ -29,7 +35,8 @@
     color: white;
     margin-bottom: 20px;
 }
-.nft_punters_text p{
+
+.nft_punters_text p {
     font-family: 'TT Norms Pro';
     font-style: normal;
     font-weight: 700;
@@ -37,40 +44,58 @@
     line-height: 34px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 768px){
-    .back_wrapper{
-        background-color: #282828;
-        padding:  0;
+
+@media screen and (max-width: 1150px) {
+
+    .nft_punters_text h1 {
+        font-size: 30px;
+        line-height: 40px;
     }
-    .nft_punters_main{
+
+    .nft_punters_text p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .back_wrapper {
+        background-color: #282828;
+        padding: 0;
+    }
+
+    .nft_punters_main {
         display: block;
         width: 100%;
         margin-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .nft_punters_image{
+
+    .nft_punters_image {
         width: 100%;
         text-align: right;
         padding-top: 35px;
         padding-bottom: 30px;
     }
-    .nft_punters_image img{
+
+    .nft_punters_image img {
         width: 100%;
     }
-    .nft_punters_text{
+
+    .nft_punters_text {
         width: 100%;
     }
-    .nft_punters_text h1{
+
+    .nft_punters_text h1 {
         font-weight: bold;
         font-size: 35px;
         line-height: 40px;
-        color: white;
         margin-bottom: 20px;
     }
-    .nft_punters_text p{
+
+    .nft_punters_text p {
         font-size: 19px;
         line-height: 30px;
     }
 }
-
