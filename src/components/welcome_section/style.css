@@ -288,7 +288,7 @@
     }
     
     .welcome_content_container{
-        padding: 50px 20px;
+        padding: 10px 20px;
         width: 100%;
 
     }
@@ -301,7 +301,10 @@
         line-height: 50px;
         color: white;
     }
-    
+    .welcome_content_container p{
+        padding-right: 0px;
+        width: 100%;
+    }
     .welcome_content_container h2{
         font-size: 35px;
         line-height: 40px;

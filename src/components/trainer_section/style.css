@@ -38,3 +38,44 @@
     line-height: 34px;
     color: #FFFFFF;
 }
+@media screen and (max-width: 768px){
+    .trainer_section_main {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .trainer_section_image{
+        width: 100%;
+        text-align: right;
+        padding-top: 35px;
+    }
+    .trainer_section_image img{
+        width: 100%;
+    }
+    
+    .trainer_section_text {
+        width: 100%;
+    }
+    
+    .trainer_section_text h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .trainer_section_text p {
+        font-family: 'TT Norms Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
