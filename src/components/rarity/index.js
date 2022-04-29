@@ -1,8 +1,8 @@
 import './style.css'
-import h1 from "../../assets/images/h1.png"
-import h2 from "../../assets/images/h2.png"
-import h3 from "../../assets/images/h3.png"
-import h4 from "../../assets/images/h4.png"
+import h1 from "../../assets/images/h66.jpg"
+import h2 from "../../assets/images/h22.jpg"
+import h3 from "../../assets/images/h33.jpg"
+import h4 from "../../assets/images/h44.jpg"
 import layer from "../../assets/images/rarity_layer.png"
 
 function Rarity() {

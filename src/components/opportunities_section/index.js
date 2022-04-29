@@ -1,5 +1,5 @@
 import './style.css'
-import h1 from "../../assets/images/h3.png"
+import h1 from "../../assets/images/h33.jpg"
 
 
 function Opportunities() {

@@ -1,5 +1,5 @@
 import './style.css'
-import h1 from "../../assets/images/h2.png"
+import h1 from "../../assets/images/h44.jpg"
 import layer from "../../assets/images/rarity_layer.png"
 
 

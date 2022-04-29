@@ -1,5 +1,5 @@
 import './style.css'
-import h1 from "../../assets/images/h3.png"
+import h1 from "../../assets/images/h11.jpg"
 import Trainer from '../trainer_section';
 import layer from "../../assets/images/Layer.png"
 

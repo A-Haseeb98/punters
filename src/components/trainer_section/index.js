@@ -1,5 +1,5 @@
 import './style.css'
-import h1 from "../../assets/images/h2.png"
+import h1 from "../../assets/images/h55.jpg"
 
 function Trainer() {
     return (
