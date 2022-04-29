@@ -15,16 +15,16 @@ function App() {
   return (
     <Router>
       <Switch>
-        <div>
+        <>
           <Navbar />
           <Cover />
           <Welcome />
-          <Punters/>
-          <Rent/>
+          <Punters />
+          <Rent />
           <Rarity />
           <Roadmap />
           <Footer />
-        </div>
+        </>
       </Switch>
     </Router>
   );
