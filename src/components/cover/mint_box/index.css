@@ -1,6 +1,6 @@
 .mint_container {
     background-position: center;
-    background-image: repeating-radial-gradient(circle at center center, rgba(162, 0, 255, 0.5), rgba(162, 0, 255, 0.5) 1px, transparent 1px, transparent 100%) !important;
+    background-color: rgba(0, 0, 0, 0.6);
     background-size: 2.9px 2.9px;
     background-position: 50% 50%;
     border-radius: 25px;
@@ -14,8 +14,15 @@
     margin: 0 auto;
     font-family: 'fira sans', sans-serif;
     font-weight: 500;
-    box-shadow: -38px 18px 10px 0px rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
+    /* box-shadow: -38px 18px 10px 0px rgba(0, 0, 0, 0.5); */
+    border: 1px solid #ffffff;
+    z-index: 22;
+
+}
+.last_para{
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .sellector_buttons_wrapper {
@@ -27,14 +34,12 @@
     border: 1px solid #ffffff;
     border-radius: 25px;
     width: 100%;
-
 }
 
 .sellector_buttons_wrapper .plus_minus_button {
     height: 40px;
     width: 40px;
-    color: white;
-    background-color: rgb(0, 85, 255);
+    color: black;
     border: 1px solid white;
     border-radius: 20px;
     font-weight: 800 !important;
@@ -57,19 +62,14 @@
     cursor: pointer;
     transition: all .2s ease-in-out;
     display: inline-block;
-    /* padding: 12px 30px 12px 15px; */
-    /* font-weight: bold; */
-    /* font-size: 15px; */
-
-    background-color: rgb(0, 85, 255);
-    letter-spacing: 2px;
-    border-radius: 5px;
+    background-color: white;
+    letter-spacing: 1px;
     padding: 18px;
     border: none;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    color: #ffff;
+    color: black;
     margin-top: 30px;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
@@ -121,7 +121,7 @@
     line-height: 34px;
     font-weight: 700;
     text-transform: uppercase;
-    color: white;
+    color: white ;
     text-align: center;
     font-family: 'Lato', sans-serif;
     margin-bottom: 20px;
@@ -131,7 +131,7 @@
 .notification_box {
     /* background-color: rgba(162, 0, 255, 0.6); */
     text-align: left;
-    color: white;
+    color: black;
     font-weight: 500;
     border-left: 10px solid red;
     padding-top: 10px;
@@ -143,7 +143,7 @@
     margin-bottom: 15px;
     margin-Top: 10px;
     position: relative;
-    background-color: rgb(0, 85, 255);
+    background-color: white;
 
 }
 
@@ -182,11 +182,15 @@
     z-index: 44;
 }
 
+
+
 @media screen and (max-width: 768px) {
 
     .mint_container {
         position: static;
         padding-bottom: 40px;
+        margin-top: 0;
+
     }
 
     .sellector_buttons_wrapper {

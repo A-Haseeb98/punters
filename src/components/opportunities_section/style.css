@@ -21,6 +21,7 @@
 }
 .oppor_text h1{
     font-family: 'TT Norms Pro';
+    word-wrap: break-word;
     margin-top: 0px;
     margin-bottom: 30px;
     font-size: 50px;

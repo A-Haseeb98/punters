@@ -1,113 +1,139 @@
-.cover_container{
+.cover_container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     position: relative;
 }
-.headline_container{
+
+.headline_container {
     position: absolute;
-    top: 8%;
+    top: 30px;
     left: 50%;
-    transform: translateX(-400px);
-    max-width: 800px;
+    transform: translateX(-50%);
+    max-width: 80%;
     width: 100%;
-    color:#fff;
+    color: #fff;
     text-align: center;
+    display: none;
 }
-.headline_container h1 {
+
+.mint_main_wrapper {
+    position: absolute;
+    top: 5%;
+}
+
+.headline_container h1,
+.mint_main_wrapper h1 {
     font-family: 'TT Norms Pro';
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 32px;
     letter-spacing: 0;
-    line-height: 60px;
+    line-height: 40px;
     color: white;
     text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.mint_main_wrapper h1{
+    margin-bottom: 30px;
 }
 
-.headline_container button{
-    color: white;
-    width: 195px;
-    height: 58px;
-    line-height: 21.09px;
-    font-size: 18px;
-    font-weight: 900;
-    border: none;
-    background: url('../../assets/images/btn_bg.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 20px;
-}
-.headline_container button:hover{
-    opacity: 0.9;
-    cursor:pointer;  
-    transition: all .2s ease-in-out; 
-}
-
-
-
-.cover_container img{
+.image_wrapper_cover {
+    display: flex;
     width: 100%;
 }
 
-.etherium_heading{
+.cover_container img {
+    width: 100%;
+}
+
+.etherium_heading {
     background-color: #627EEA;
     height: 106px;
     width: 100%;
 }
-.etherium_heading h1{
+
+.etherium_heading h1 {
     font-family: 'TT Norms Pro';
     font-style: normal;
     font-weight: 900;
     font-size: 42px;
     width: 95%;
-    line-height: 106px;  
+    line-height: 106px;
     max-width: 1440px;
     letter-spacing: 1px;
     margin: 0% auto;
     color: white;
 }
-@media screen and (max-width: 768px){
 
-    .etherium_heading{
+@media screen and (max-width: 1110px) {
+    .cover_container {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+    }
+
+    .headline_container {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        transform: translateX(0);
+        max-width: 100%;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+    }
+
+    .mint_main_wrapper {
+        position: static;
+        background-color: #282828;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mint_main_wrapper h1 {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .etherium_heading {
         background-color: #627EEA;
         height: 76px;
         width: 100%;
     }
-    .etherium_heading h1{
+
+    .etherium_heading h1 {
         font-size: 22px;
-        line-height: 76px;  
+        line-height: 76px;
         text-align: center;
     }
-    .headline_container{
-        position: absolute;
-        top: 0;
-        left: 0%;
-        height: 100%;
+
+    .headline_container h1 {
         width: 100%;
-        transform: translateX(0px);
-        max-width: 800px;
-        width: 100%;
-        color:#fff;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 0 20px;
-    }
-    .headline_container h1{
         font-family: 'TT Norms Pro';
         font-style: italic;
         font-weight: 900;
         font-size: 16px;
         line-height: 25px;
         color: white;
+        max-width: none;
         margin-bottom: 10px;
     }
-    .headline_container button{
+
+    .headline_container button {
         color: white;
         width: 165px;
         height: 50px;
@@ -115,5 +141,34 @@
         font-size: 16px;
         margin-top: 0px;
     }
-}
 
+    .cover_container {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+    }
+
+    .headline_container {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: fit-content;
+        max-width: 80%;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+    }
+
+    .mint_main_wrapper {
+        position: static;
+        background-color: #282828;
+        width: 100%;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+}

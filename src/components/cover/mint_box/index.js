@@ -3,7 +3,6 @@ import './index.css'
 import { HiPlus, HiMinus } from 'react-icons/hi'
 import { RiCloseFill } from 'react-icons/ri'
 import { useState } from 'react'
-import { MdDoubleArrow } from 'react-icons/md';
 
 function MintBox() {
   let price = 0.09;
@@ -26,7 +25,7 @@ function MintBox() {
       {
         close ? <div className='notification_box'>
           <p><span className='type'>Error! </span> Email address is already registered.</p>
-          <span onClick={() => setClose(false)} className='cut'><RiCloseFill color='white' /></span>
+          <span onClick={() => setClose(false)} className='cut'><RiCloseFill color='black' /></span>
         </div> : null
       }
 
@@ -47,13 +46,13 @@ function MintBox() {
       <p className='mint_price'>
         {(price * quantity).toFixed(2)} ETH
       </p>
-      <p className="text-center last_para text-white ">
+      <p className="last_para">
         You can mint up to 3 NFT per transaction. <br />
       </p>
       <button
         onClick={() => setClose(true)}
         className="connect_btn" >
-        <span><MdDoubleArrow /></span> MINT NOW
+           MINT NOW
       </button>
     </div>
 
