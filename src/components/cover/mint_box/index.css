@@ -1,0 +1,246 @@
+.mint_container {
+    background-position: center;
+    background-image: repeating-radial-gradient(circle at center center, rgba(162, 0, 255, 0.5), rgba(162, 0, 255, 0.5) 1px, transparent 1px, transparent 100%) !important;
+    background-size: 2.9px 2.9px;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'fira sans', sans-serif;
+    font-weight: 500;
+    box-shadow: -38px 18px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.sellector_buttons_wrapper {
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    width: 100%;
+
+}
+
+.sellector_buttons_wrapper .plus_minus_button {
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: rgb(0, 85, 255);
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: 800 !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease-in-out;
+    padding: 0 !important;
+    cursor: pointer;
+
+}
+
+.sellector_buttons_wrapper .plus_minus_button:hover {
+    /* background-image: linear-gradient(to right, #00ffbd, #00f2d2, #00e5df, #00d6e5, #2dc6e2); */
+    transform: scale(1.02);
+}
+
+.connect_btn {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    /* padding: 12px 30px 12px 15px; */
+    /* font-weight: bold; */
+    /* font-size: 15px; */
+
+    background-color: rgb(0, 85, 255);
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding: 18px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #ffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connect_btn span {
+    padding-right: 10px;
+    font-size: 18px;
+    transform: translateY(1px);
+}
+
+.quantity {
+    color: #fff;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-bottom: -7px;
+}
+
+.mint_qantity {
+    font-family: 'Lato', sans-serif !important;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.mint_price {
+    color: #ffff;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 0.07em;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.message_box {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.notification_box {
+    /* background-color: rgba(162, 0, 255, 0.6); */
+    text-align: left;
+    color: white;
+    font-weight: 500;
+    border-left: 10px solid red;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    line-height: 25px;
+    vertical-align: middle;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-Top: 10px;
+    position: relative;
+    background-color: rgb(0, 85, 255);
+
+}
+
+.notification_box p {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.notification_box span.cut {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    z-index: 3;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.notification_box span.cut:hover {
+    transform: scale(1.1);
+}
+
+.notification_box span.type {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    z-index: 44;
+}
+
+@media screen and (max-width: 768px) {
+
+    .mint_container {
+        position: static;
+        padding-bottom: 40px;
+    }
+
+    .sellector_buttons_wrapper {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 25px;
+        width: 100%;
+    }
+
+    .sellector_buttons_wrapper .plus_minus_button {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+    }
+
+    /* 
+    .connect_btn {
+        font-size: 18px;
+        padding: 10px 70px;
+        margin-top: 10px;
+
+    } */
+
+
+    .quantity {
+        font-size: 22px;
+    }
+
+    .mint_qantity {
+        font-size: 22px;
+    }
+
+    .mint_price {
+        font-size: 22px;
+        letter-spacing: 0.03em;
+        width: 100%;
+    }
+
+    .message_box {
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+
+    .notification_box {
+        width: 100%;
+
+    }
+}
